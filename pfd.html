@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pfd.css">
+    <title>Portfolio - Svilling</title>
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html" class="active1"><br><p style="margin-top: 14px">Projekter</p></a>
+        <a href="me.html" class="inactive1"><br><p style="margin-top: 14px;">Svilling</p></a>
+        <a href="slottet.html" class="inactive2"><br><p style="margin-top: 14px;">Slottet</p></a>
+        <a href="pou.html" class="inactive3"><br><p style="margin-top: 6px;">Pou 2</p></a>
+        <a href="flappybird.html" class="inactive4"><br><p style="margin-top: 6px">Flappybird</p></a>
+        <a href="pfd.html" class="active2"><br><p style="margin-top: 6px;">PFD</p></a>
+        <a href="so2.html" class="inactive5"><br><p style="margin-top: 6px;">SO2</p></a>
+    </div>
+    <div class="image1">
+        <img src="images/frog1.png" class="image1">
+    </div>
+    <div class="box1">
+        <h1>PFD - Server og databaser</h1>
+        <hr>
+        <h2 class="gruppe">Gruppe</h2>
+        <p class="p1">
+                Gruppen i dette projekt var lille, da Ea dibsede mig.
+                Så blev det kun os to, hvilket viste sig at være meget
+                praktisk.
+        </p>
+        <h2 class="formål">Formål</h2>
+        <p class="p2">
+                Formålet var at lave en fungerende 3-lags arkitektur i vores
+                html og css. Derudover skulle den have det lille formål at folk kunne finde venner til deres dyr.
+        </p>
+        <img src="images/lag.png" class="image2">
+        <h2 class="lag">Hvad er 3-lags arkitektur?</h2>
+        <p class="p3">
+                <i><b>Præsentationslag:</b></i>
+                <br>
+                &emsp;I et 3-lags arkitektur er der er præsentationslager, et logiklager og et datalager.
+                Præsentationslageret er hvor selve produktet bliver præsenteret på. Dette er ofte på en
+                hjemmeside, en app på en telefon, eller andre måder at fremvise et produkt på. Den kommunikerer
+                med logiklageret ved HTTPS Hyper Text Transfer Protocol Secure. Den bliver brugt på World Wide
+                Web (WWW) hvor hjemmesider ofte bliver hosted igennem.
+                <br>
+                <br>
+                <i><b>Logiklag</b></i>
+                <br>
+                &emsp;Logiklageret foretager logiske beregninger og henter informationer fra præsentationslaget
+                og data fra data laget. Derudover laver det også beregninger og andre manipulationer på dataerne
+                fra data laget.
+                <br>
+                <br>
+                <i><b>Datalag</b></i>
+                <br>
+                &emsp;Datalager er hvor alt den data der bliver indsamlet fra hjemmesiden, er opbevaret. Dette, i
+                vores projekt, blev gjort igennem MongoDB, hvor man skulle lave en Collection, og derefter connect
+                det til selve logiklageret. Dette virket ikke så godt for os, men under formål skriver vi mere om hvad
+                vi gerne ville havde collected af data til vores hjemmeside.
+        </p>
+        <img src="images/erd.png" class="image3">
+        <h2 class="erd">ERD</h2>
+        <p class="p4">
+                ⬅ Her har vi et eksempel på et Entity Relationship Diagram af hvordan det skulle havde været til slut i forløbet.
+                <br>
+                <br>
+                Denne her kunne havde blevet lavet bedre ved at have en Entity diagram der connecter the animals og users der siger
+                ja eller nej ved brug af en foreign key. 
+        </p>
+        <h2 class="bedre">Hvad kunne have blevet gjort bedre?</h2>
+        <p class="p5">
+            Det de hovedsageligt kunne havde blevet gjort bedre var de metoder vi brugt i selve vores kode. GET, POST, DELETE og
+            UPDATE. Hvis vi havde haft en bedre forståelse af selve koden og hvordan alting virket, ville vi kunne havde opfyldt
+            vores formål af at få folk til at tælle hver gang de klikker på fotoet af selve dyrene. 
+        </p>
+    </div>
+</body>
+</html>
